@@ -8,18 +8,15 @@
     <link rel="icon" href="img/flowers.png" type="image/x-icon">
     <title>FLORES</title>
     <style>
-      /* Estilo para ocultar el reproductor de audio */
+      /* Ocultar el reproductor */
       audio {
-          width: 23; /* Hace que el reproductor sea invisible */
-          height: 23; /* Hace que el reproductor sea invisible */
-          position: absolute; /* Permite posicionar el reproductor en la pantalla */
+          width: 0;
+          height: 0;
+          position: absolute;
+          bottom: 10px;
+          right: 10px;
       }
-      /* Posiciona el reproductor en la esquina inferior derecha */
-      .audio-player {
-          bottom: 10px; /* Ajusta la distancia desde la parte inferior */
-          right: 10px; /* Ajusta la distancia desde la parte derecha */
-      }
-  </style>
+    </style>
 </head>
 
 <body class="container">
